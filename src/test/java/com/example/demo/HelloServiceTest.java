@@ -52,9 +52,5 @@ public class HelloServiceTest {
         Assert.assertEquals("aaa", helloService.get());
     }
 
-    @Test
-    public void test3(){
-        System.out.println("Hello Test3");
-        Assert.assertEquals("aaa1", helloService.get());
-    }
+    
 }
